@@ -28,4 +28,4 @@
 # cp -r luci/applications/luci-app-airplay2/ feeds/luci/applications/luci-app-airplay2/
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
